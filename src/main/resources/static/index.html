@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizArena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="quizBox">
+        <h1>QuizArena</h1>
+        <p>Test your Java knowledge</p>
+
+        <label for="playerName">Player name</label>
+        <input type="text" id="playerName" maxlength="30" placeholder="Enter your name">
+
+        <p id="questionNumber"></p>
+        <h2 id="questionText">Press Start Quiz</h2>
+
+        <div id="answers"></div>
+        <p id="message"></p>
+
+        <button id="startButton" onclick="startQuiz()">Start Quiz</button>
+        <button id="nextButton" onclick="nextQuestion()" class="hidden">Next Question</button>
+        <button id="saveButton" onclick="saveResult()" class="hidden">Save Result</button>
+
+        <h2>Leaderboard</h2>
+        <div id="leaderboard"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
