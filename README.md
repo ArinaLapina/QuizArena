@@ -39,8 +39,7 @@ Maven does not need to be installed separately because the project includes Mave
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/QuizArena.git
-cd QuizArena
+git clone https://github.com/ArinaLapina/QuizArena.git
 ```
 
 Build the project.
@@ -101,8 +100,7 @@ Example:
 
 ```json
 {
-  "playerName": "Arina",
-  "score": 10
+  "playerName": "Arina","score": 10
 }
 ```
 
